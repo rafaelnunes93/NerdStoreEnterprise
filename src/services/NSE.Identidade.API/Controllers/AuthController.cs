@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace NSE.Identidade.API.Controllers
 {
+    [ApiController]
     [Route("api/identidade")]
     public class AuthController : Controller
     {
